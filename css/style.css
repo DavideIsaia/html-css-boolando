@@ -25,14 +25,19 @@ html {
 /* PRODUCT  */
 .product {
     display: inline-block;
+    width: calc(100%/3 - 3px);
+}
+
+.bg-product {    
     position: relative;
-    width: calc(100%/3);
     vertical-align: top;
 }
 
 img {
     width: 100%;
 }
+
+/* descriptions */
 
 .brand {
     font-size: smaller;
