@@ -26,11 +26,11 @@ html {
     display: inline-block;
     margin: 6px;
     width: calc(100%/3 - 18px);
+    vertical-align: top;
 }
 
 .bg-product {    
     position: relative;
-    vertical-align: top;
 }
 
 img {
@@ -54,26 +54,36 @@ img {
 
 /* labels */
 .label {
-    position: absolute;
     padding: 4px;
     color: white;
     font-weight: bold;
     z-index: 1;
 }
 
-.discount {
-    background-color: #eb0037;
+.labels {
+    position: absolute;
     bottom: 2em;
     left: 0;
+    z-index: 1;
+}
+
+.discount {
+    background-color: #eb0037;
 }
 
 .sustain {
     background-color: #00875a;
-    bottom: 2em;
-    left: 3em;
 }
 
+/* .sustain:last-of-type {
+    left: 0;
+} */
+
 .wishlist {
+    position: absolute;
+    padding: 4px;
+    font-weight: bold;
+    z-index: 1;
     background-color: white;
     color: black;
     font-size: 25px;
