@@ -14,7 +14,6 @@ html {
     width: 80%;
     max-width: 1440px;
     margin: 3em auto;
-    border: 2px solid black;
 }
 
 .row {
@@ -25,7 +24,8 @@ html {
 /* PRODUCT  */
 .product {
     display: inline-block;
-    width: calc(100%/3 - 3px);
+    margin: 6px;
+    width: calc(100%/3 - 18px);
 }
 
 .bg-product {    
