@@ -6,6 +6,10 @@
 }
 
 /* COMMON */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 80%;
     max-width: 1440px;
@@ -28,6 +32,41 @@
 
 img {
     width: 100%;
+}
+
+/* labels */
+.label {
+    position: absolute;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.discount {
+    background-color: #eb0037;
+    bottom: 2em;
+    left: 0;
+}
+
+.sustain {
+    background-color: #00875a;
+    bottom: 2em;
+    left: 3em;
+}
+
+.wishlist {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 10px 15px;
+    top: 1em;
+    right: 0;
+}
+
+.wishlist:hover {
+    color: #eb0037;
+    cursor: pointer; 
 }
 
 /* alternative product invisible */
