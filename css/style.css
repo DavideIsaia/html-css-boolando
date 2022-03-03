@@ -4,3 +4,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 3em auto;
+    border: 2px solid black;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+/* PRODUCT  */
+.product {
+    display: inline-block;
+    position: relative;
+    width: calc(100%/3);
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+}
+
+/* alternative product invisible */
+.alternative {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* mouse hover product, show alternative */
+.product:hover .alternative{
+    display: inline-block;
+}
