@@ -99,7 +99,7 @@ img {
 }
 
 /* mouse hover product, show alternative */
-.bg-product:hover .img-default {
+.product:hover .img-default {
     display: none;
 }
 .product:hover .alternative{
