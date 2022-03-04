@@ -75,10 +75,6 @@ img {
     background-color: #00875a;
 }
 
-/* .sustain:last-of-type {
-    left: 0;
-} */
-
 .wishlist {
     position: absolute;
     padding: 4px;
@@ -100,12 +96,12 @@ img {
 /* alternative product invisible */
 .alternative {
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 /* mouse hover product, show alternative */
+.bg-product:hover .img-default {
+    display: none;
+}
 .product:hover .alternative{
     display: inline-block;
 }
